@@ -7,7 +7,6 @@ description: Fetches general statistics about the diagnostic data records, filte
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

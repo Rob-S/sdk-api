@@ -2,11 +2,9 @@
 UID: NF:cimfs.CimMountImage
 title: CimMountImage
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimMountImage
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -57,7 +54,7 @@ Provides the name of an existing image within the same imageContainingPath that 
 
 ### -param mountImageFlags
 
-Type: **[CIM_MOUNT_IMAGE_FLAGS](ne-cimfs-cim_mount_image_flags)**
+Type: **[CIM_MOUNT_IMAGE_FLAGS](/windows/win32/api/cimfs/ne-cimfs-cim_mount_image_flags)**
 
 ### -param volumeId
 

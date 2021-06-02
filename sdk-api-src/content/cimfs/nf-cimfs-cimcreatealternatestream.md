@@ -3,10 +3,8 @@ UID: NF:cimfs.CimCreateAlternateStream
 title: CimCreateAlternateStream
 ms.date: 9/9/2019
 ms.keywords: CimCreateAlternateStream
-ms.author: windowssdkdev
 tech.root: cimfs
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:

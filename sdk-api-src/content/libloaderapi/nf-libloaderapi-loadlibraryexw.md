@@ -149,7 +149,7 @@ If this value is used, the system does not check
           "TrustedInstaller"; otherwise the system ignores this flag. For more information, see 
           "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2" 
           in the Help and Support Knowledge Base at 
-          <a href="Http://support.microsoft.com/kb/2532445">http://support.microsoft.com/kb/2532445</a>.
+          <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker was introduced in Windows 7 and Windows Server 2008 R2.
 
@@ -351,6 +351,8 @@ This value cannot be combined with any <b>LOAD_LIBRARY_SEARCH</b> flag.
 </td>
 <td width="60%">
 Specifies that the digital signature of the binary image must be checked at load time.
+
+This value requires Windows 8.1, Windows 10 or later.
 
 </td>
 </tr>

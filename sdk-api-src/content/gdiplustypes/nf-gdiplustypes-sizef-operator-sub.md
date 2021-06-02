@@ -3,7 +3,7 @@ UID: NF:gdiplustypes.SizeF.operator-sub
 title: SizeF::operator-
 ms.date: 11/4/2019
 targetos: Windows
-description: Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class.
+description: Subtraction operator for the [**SizeF**](../gdiplustypes/nl-gdiplustypes-sizef.md) class.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class. Subtracts the argument from the current instance of **SizeF**.
+Subtraction operator for the [**SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef) class. Subtracts the argument from the current instance of **SizeF**.
 
 ## -parameters
 

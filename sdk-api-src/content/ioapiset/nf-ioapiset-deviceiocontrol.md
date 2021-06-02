@@ -1,12 +1,10 @@
 ---
 UID: NF:ioapiset.DeviceIoControl
 title: DeviceIoControl function (ioapiset.h)
-author: windows-sdk-content
 description: Sends a control code directly to a specified device driver, causing the corresponding device to perform the corresponding operation.
 old-location: base\deviceiocontrol.htm
 tech.root: devio
 ms.assetid: 1d35c087-6672-4fc6-baa1-a886dd9d3878
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, base.deviceiocontrol, ioapiset/DeviceIoControl
 req.header: ioapiset.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -50,13 +47,11 @@ api_name:
  - DeviceIoControl
 ---
 
-# DeviceIoControl function
-
-
 ## -description
 
-Sends a control code directly to a specified device driver, causing the corresponding device to 
-    perform the corresponding operation.
+Sends a control code directly to a specified device driver, causing the corresponding device to perform the corresponding operation.
+
+See the [Assign drive letter sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io/dledit).
 
 ## -parameters
 
@@ -213,31 +208,20 @@ For lists of supported control codes, see the following topics:
 
 #### Examples
 
-For an example that uses <b>DeviceIoControl</b>, see 
-     <a href="/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
-
-<div class="code"></div>
+For an example that uses <b>DeviceIoControl</b>, see <a href="/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
 
 ## -see-also
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
-
-
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
 
 <a href="/windows/desktop/DevIO/device-input-and-output-control-ioctl-">Device Input and Output Control (IOCTL)</a>
 
-
-
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
-
-
 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
-
-
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+
+[Assign drive letter sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io/dledit)

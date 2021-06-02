@@ -2,11 +2,9 @@
 UID: NF:cimfs.CimWriteStream
 title: CimWriteStream
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimWriteStream
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
