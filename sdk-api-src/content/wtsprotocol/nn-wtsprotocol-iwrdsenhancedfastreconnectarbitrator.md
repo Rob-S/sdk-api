@@ -16,7 +16,7 @@ req.max-support:
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: None supported
-req.target-min-winversvr: Windows Server Preview Build 20292
+req.target-min-winversvr: Windows Server 2022
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
@@ -50,7 +50,7 @@ The <b>IWRdsEnhancedFastReconnectArbitrator</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsenhancedfastreconnectarbitrator-getsessionforenhancedfastreconnect">GetSessionForEnhancedFastReconnect</a>
 </td>

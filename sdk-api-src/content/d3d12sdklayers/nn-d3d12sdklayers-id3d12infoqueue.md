@@ -54,14 +54,11 @@ An information-queue interface stores, retrieves, and filters debug messages. Th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12InfoQueue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12InfoQueue</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D12InfoQueue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12InfoQueue</b> also has these types of members:
 
 ## -remarks
 
-This interface is obtained by querying it from the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>.
+This interface is obtained by querying it from the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>. The <code>ID3D12Debug</code> layer must be enabled through <code>ID3D12Debug::EnableDebugLayer</code> for that operation to succeed.
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Retrieves information about the specified process.
 
@@ -100,10 +100,6 @@ The size in bytes of the structure specified by the <i>ProcessInformation</i> pa
 If the <i>ProcessInformationClass</i> parameter is 
       <b>ProcessMemoryPriority</b>, this parameter must be 
       <code>sizeof(MEMORY_PRIORITY_INFORMATION)</code>.
-
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessPowerThrottling</b>, this parameter must be 
-       <code>sizeof(PROCESS_POWER_THROTTLING_STATE)</code>.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessProtectionLevelInfo</b>, this parameter must be 
